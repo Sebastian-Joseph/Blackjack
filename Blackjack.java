@@ -7,6 +7,7 @@ public class Blackjack {
     public static void main(String[] args){
 
         System.out.println("Welcome to Blackjack! This is where you will get robbed!");
+        System.out.println("tip: If you want to quit game, just bet more than what you have. You're welcome <3");
 
         Deck playingDeck = new Deck();
         playingDeck.createFullDeck();
@@ -105,4 +106,5 @@ public class Blackjack {
 
 //fun times making this...year fun times
     // December 15, 2020. 1:53 AM EST
+
 }
