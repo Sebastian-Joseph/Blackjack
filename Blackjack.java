@@ -86,7 +86,7 @@ public class Blackjack {
                 playerChips += playerBet;
                 endRound = true;
             }
-            else if(endRound == false) //dealer wins
+            else if(endRound == false)
             {
                 System.out.println("Dealer wins.");
                 playerChips -= playerBet;
@@ -103,5 +103,6 @@ public class Blackjack {
 
     }
 
-
+//fun times making this...year fun times
+    // December 15, 2020. 1:53 AM EST
 }
